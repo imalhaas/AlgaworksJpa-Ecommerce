@@ -22,6 +22,8 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
         entityManager.persist(produto);
 
         entityManager.getTransaction().commit();
+
+        //LM
     }
 
     @Test
