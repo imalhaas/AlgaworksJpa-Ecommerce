@@ -1,7 +1,6 @@
 package com.algaworks.ecommerce.model.Util;
 
-import com.algaworks.ecommerce.model.Produto;
-import jdk.jfr.Percentage;
+import com.algaworks.ecommerce.model.Util.Model.Produto;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;

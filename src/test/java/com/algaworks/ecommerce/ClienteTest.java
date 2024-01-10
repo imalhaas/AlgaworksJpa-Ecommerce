@@ -1,8 +1,7 @@
 package com.algaworks.ecommerce;
 
-import com.algaworks.ecommerce.model.Produto;
-import com.algaworks.ecommerce.model.Util.Cliente;
-import junit.framework.TestCase;
+import com.algaworks.ecommerce.model.Util.Model.Produto;
+import com.algaworks.ecommerce.model.Util.Model.Cliente;
 import org.junit.Assert;
 import org.junit.Test;
 
