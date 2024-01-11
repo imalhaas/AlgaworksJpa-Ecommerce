@@ -25,4 +25,8 @@ public class NotaFiscal {
 
     private Date dataEmissao;
 
+    private String Produto;
+
+    //lm
+
 }
