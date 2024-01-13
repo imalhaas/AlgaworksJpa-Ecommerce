@@ -5,8 +5,10 @@ import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 import java.util.Objects;
 
 
@@ -14,6 +16,7 @@ import java.util.Objects;
 @Setter
 @Getter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
+@Table(name = "cliente")
 public class Cliente {
 
     @EqualsAndHashCode.Include
@@ -22,6 +25,7 @@ public class Cliente {
 
     private String nome;
 
+    @Column(name = "sexo")
     private SexoCLiente sexoCLiente;
 
 }
