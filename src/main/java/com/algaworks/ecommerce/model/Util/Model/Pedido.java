@@ -25,6 +25,7 @@ public class Pedido {
     @Column(name = "data_pedido")
     private LocalDateTime dataPedido;
 
+    @Column(name = "data_conclusao")
     private LocalDateTime dataConclusao;
 
     private Integer notaFiscalId;
