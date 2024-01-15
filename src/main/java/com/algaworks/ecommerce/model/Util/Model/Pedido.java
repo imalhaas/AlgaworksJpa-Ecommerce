@@ -28,10 +28,19 @@ public class Pedido {
     @Column(name = "data_conclusao")
     private LocalDateTime dataConclusao;
 
+    @Column(name = "notaFiscal")
     private Integer notaFiscalId;
 
     private BigDecimal total;
 
+    @Enumerated(EnumType.STRING)
     private StatusPedido statusPedido;
+
+    @Embedded
+    private EnderecoEntregaPedido enderecoEntregaPedido;
+
+
+
+
 
 }
