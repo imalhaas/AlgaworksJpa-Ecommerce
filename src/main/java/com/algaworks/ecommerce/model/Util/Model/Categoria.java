@@ -16,7 +16,7 @@ public class Categoria {
 
     @EqualsAndHashCode.Include
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO) //hibernate é quem vai escolher a estrategia, e também vai adicionar outra tabela no banco
+    @GeneratedValue(strategy = GenerationType.IDENTITY) //hibernate é quem vai escolher a estrategia, e também vai adicionar outra tabela no banco
     private Long id;
 
     private String nome;

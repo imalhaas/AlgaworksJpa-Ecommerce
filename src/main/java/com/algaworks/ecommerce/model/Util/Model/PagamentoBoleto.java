@@ -15,6 +15,7 @@ import javax.persistence.*;
 public class PagamentoBoleto {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
 

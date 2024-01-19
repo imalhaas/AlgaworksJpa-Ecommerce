@@ -30,7 +30,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
 
         Produto produto = new Produto();
 
-        produto.setId(4);
+        //produto.setId(4);
         produto.setDescricao("Microfone Rode Videmic");
         produto.setDescricao("A melhor qualidade de som");
         produto.setPreco(new BigDecimal(1000));
@@ -79,7 +79,7 @@ public class OperacoesComTransacaoTest extends EntityManagerTest {
     public void inserirOPrimeiroObjeto(){
         Produto produto = new Produto();
 
-        produto.setId(2);
+       // produto.setId(2);
         produto.setNome("Camera Canon");
         produto.setDescricao("A melhor definicao para suas fotos");
         produto.setPreco(new BigDecimal(5000));
