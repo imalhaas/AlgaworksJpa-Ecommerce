@@ -32,7 +32,7 @@ public class RelacionamentosManyToOneTest  extends EntityManagerTest {
 
         Pedido pedidoVerificacao = entityManager.find(Pedido.class, pedido.getId());
         Assert.assertNotNull(pedidoVerificacao.getCliente());
-
+//lm
 
 
     }
