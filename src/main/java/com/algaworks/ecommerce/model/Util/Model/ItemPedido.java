@@ -12,18 +12,20 @@ import java.math.BigDecimal;
 @Setter
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Table(name = "item_pedido")
-public class ItenPedido {
+public class ItemPedido {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @EqualsAndHashCode.Include
     private Long id;
 
+    @ManyToOne
     @Column(name = "pedido_id")
-    private Integer pedidoId;
+    private Pedido pedidoId;
 
+    @ManyToOne
     @Column(name = "produto_id")
-    private Integer produtoid;
+    private Produto produtoid;
 
     @Column(name = "preco_produto")
     private BigDecimal precoProduto;
